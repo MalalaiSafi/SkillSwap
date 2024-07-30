@@ -17,15 +17,16 @@ const Footer = () => {
         <Link to="/search" style={{ color: "white" }}>
           <IoIosSearch />
         </Link>
+        <Link to="/jobs" style={{ color: "white" }}>
+        <FaBriefcase />
+        </Link>
         <Link to="/message" style={{ color: "white" }}>
           <LuMessageSquare />
         </Link>
         <Link to="/myprofile" style={{ color: "white" }}>
           <FaRegUser />
         </Link>
-        <Link to="/jobs" style={{ color: "white" }}>
-        <FaBriefcase />
-        </Link>
+       
 
       </div>
     </footer>

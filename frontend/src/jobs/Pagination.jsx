@@ -1,4 +1,6 @@
 import React from "react";
+import './jobs.css'
+
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   const handlePageChange = (page) => {

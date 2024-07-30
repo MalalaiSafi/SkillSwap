@@ -4,6 +4,8 @@ import Header from "./Header";
 import JobSearchForm from "./JobSearchForm";
 import JobCard from "./JobCard";
 import Pagination from "./Pagination";
+import Footer from "../footer/Footer";
+import './jobs.css'
 
 const JobSearchPage = () => {
   const [jobs, setJobs] = useState([]);
@@ -60,6 +62,11 @@ const JobSearchPage = () => {
           totalPages={totalPages}
           onPageChange={handlePageChange}
         />
+      </div>
+      <br />
+      <br />
+      <div className="headline headline-list">
+        <Footer />
       </div>
     </div>
   );

@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './jobs.css'
+
 
 const JobSearchForm = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -10,6 +12,7 @@ const JobSearchForm = () => {
 
   return (
     <div className="job-search-form">
+      <div>
       <input
         type="text"
         placeholder="Search jobs..."
@@ -23,7 +26,8 @@ const JobSearchForm = () => {
         <option value="finance">Finance</option>
       </select>
       <button onClick={handleSearch}>Search</button>
-    </div>
+      </div>
+      </div>
   );
 };
 
