@@ -40,6 +40,8 @@ const message = () => {
             {<MessageList key={index} swap={swap} user={loggedInUserId} />}
           </div>
         ))}
+        <br />
+        <br />
       </div>
       <div className="headline headline-list">
         <Footer className="footer" />
