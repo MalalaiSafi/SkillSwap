@@ -5,8 +5,28 @@ const Search = () => {
   return (
     <>
       <h1>search page</h1>
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
 
-      <div className="headline headline-list">
+
+      <div className="headline headline-list footer4setting">
         <Footer />
       </div>
     </>

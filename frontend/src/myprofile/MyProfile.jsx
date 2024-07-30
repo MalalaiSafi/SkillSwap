@@ -52,9 +52,13 @@ const MyProfile = () => {
 
       <Saved />
 
+      <Footer />
+
       <div className="headline headline-list">
-        <Footer />
+      
       </div>
+     <div>
+     </div>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import svgplus from '../assets/icons/plus.svg';
+import Footer from '../footer/Footer.jsx';
 
 import { useAuth } from "../context/SkillsContext.jsx";
 
@@ -34,7 +35,6 @@ const MySkills = () => {
     </button>
    
     </div>
-
 
   </section>
   )
