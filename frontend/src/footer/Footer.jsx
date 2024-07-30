@@ -23,7 +23,7 @@ const Footer = () => {
         <Link to="/myprofile" style={{ color: "white" }}>
           <FaRegUser />
         </Link>
-        <Link to="/search" style={{ color: "white" }}>
+        <Link to="/jobs" style={{ color: "white" }}>
         <FaBriefcase />
         </Link>
 
