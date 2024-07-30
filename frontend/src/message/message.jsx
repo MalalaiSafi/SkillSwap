@@ -42,7 +42,7 @@ const message = () => {
         ))}
       </div>
       <div className="headline headline-list">
-        <Footer />
+        <Footer className="footer" />
       </div>
     </div>
   );
