@@ -11,7 +11,7 @@
 
 ## About
 
-SkillSwap is an online platform that connects individuals with various skills and facilitates skill exchange. This app will allow users to create profiles, list their skills, and search for others who are willing to exchange skills. It will provide features such as messaging, scheduling, and rating systems to ensure smooth and organized exchanges. As skills are exchanged, this app  addresses the issue of costs associated with acquiring new skills.
+The SkillSwap project aims to design and develop an online platform that connects individuals of Afghanistan with various skills and facilitates skill exchange. This app will allow users to create profiles, list their skills, and search for others who are willing to exchange skills as well as find people they would like to hire depending of thier skills. It will provide features such as messaging, scheduling, Searching, and rating systems to ensure smooth and organized exchanges. As skills are exchanged, this app  addresses the issue of costs associated with acquiring new skills. User personas and scenarios have been created to guide the development process and ensure the platform meets the needs of its users.
 
 ## Demo
 
@@ -47,16 +47,12 @@ All API documentation for our backend API endpoints can be found in "server/API 
 
 ## Team
 
+- Name: AlphaCoders
+ 
+
 ### Contributors:
 
-- DS: Johannes Schaum 
-- UX: Faith Jegede, Isabella Oelofse
-- WD: Andreas Landes (FE & BE), Lexie Yu  (FE), Maryam Arghandiwa (FE), Najma Faiz (FE)
-
-
-
-### Mentors:
-
-- UX: Maria Mendes
-- WD: Larry Almeida
+- DS: Najma Faiz
+- BE: Malalai Safi
+- FE: Maryam Arghandiwal
 
