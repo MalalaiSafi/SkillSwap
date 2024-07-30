@@ -5,6 +5,7 @@ import { IoMdHome, IoIosSearch } from "react-icons/io";
 import { FaRegUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { LuMessageSquare } from "react-icons/lu";
+import { FaBriefcase } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,6 +23,10 @@ const Footer = () => {
         <Link to="/myprofile" style={{ color: "white" }}>
           <FaRegUser />
         </Link>
+        <Link to="/search" style={{ color: "white" }}>
+        <FaBriefcase />
+        </Link>
+
       </div>
     </footer>
   );
