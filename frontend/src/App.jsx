@@ -12,7 +12,7 @@ import Message from "./message/message.jsx";
 import Chat from "./message/MessageDetail.jsx";
 import Skills from "./skill-list/skills.jsx";
 import AddInterests from "./skill-list/addInterests.jsx";
-
+import Jobs from '../src/jobs/JobSearchPage.jsx';
 import { SkillsProvider } from "./context/SkillsContext.jsx";
 import Congrats from "./form/congrats/Congrats";
 
@@ -50,6 +50,8 @@ function App() {
             <Route path="/chat" element={<Chat />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/addInterests" element={<AddInterests />} />
+            <Route path="/jobs" element={<Jobs />} />
+
           </Routes>
         </SkillsProvider>
       </BrowserRouter>

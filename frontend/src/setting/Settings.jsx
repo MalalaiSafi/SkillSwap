@@ -8,6 +8,7 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { IoLockClosedOutline } from "react-icons/io5";
 import { TbExclamationMark } from "react-icons/tb";
 import { RxExit } from "react-icons/rx";
+import Footer from '../footer/Footer';
 
 
 
@@ -49,6 +50,7 @@ class SettingsPage extends React.Component {
           </div>
        
         </ul>
+      <Footer />
       </div>
     );
   }

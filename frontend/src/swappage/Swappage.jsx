@@ -183,6 +183,9 @@ const Swappage = () => {
       {isChatRequestSent && (
         <Congrats onCloseClick={() => setIsChatRequestSent(false)} />
       )}
+      <br />
+      <br />
+
     </>
   );
 };

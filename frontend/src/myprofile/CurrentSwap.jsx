@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react';
+import Footer from "../footer/Footer";
 
 
 const CurrentSwap = () => {
@@ -23,6 +24,8 @@ const CurrentSwap = () => {
         <input type="checkbox" checked={completed} id={'toggle-button'} onChange={handleToggle}/>
       </div>
     </div>
+ 
+
 
    
   </section>
